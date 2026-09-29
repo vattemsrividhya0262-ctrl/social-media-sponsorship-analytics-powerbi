@@ -1,15 +1,17 @@
+
 # 📊 Social Media Sponsorship Analytics Dashboard using Power BI
 
 An interactive **Power BI dashboard** designed to analyze social media performance, audience engagement, content performance, sponsorship effectiveness, platform trends, posting-time patterns, and geographic audience behavior.
 
 This project uses **Power Query** for data transformation, **DAX** for analytical calculations, and **Power BI** for interactive data visualization and business analysis.
 
+---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
 Social media platforms generate large amounts of data related to views, likes, comments, shares, engagement, content, creators, sponsorships, and audiences.
 
-This project transforms raw social media data into an interactive Business Intelligence dashboard that helps analyze social media performance and sponsorship effectiveness.
+This project transforms raw social media data into an interactive **Business Intelligence dashboard**.
 
 ### The dashboard focuses on:
 
@@ -22,12 +24,11 @@ This project transforms raw social media data into an interactive Business Intel
 - 🌍 Geographic audience distribution
 - 📊 Reach and engagement trends
 
+---
 
-## 🎯 Business Problem
+# 🎯 Business Problem
 
 Social media performance data contains multiple metrics across platforms, content categories, creators, sponsorships, and audience segments.
-
-Analyzing this information manually can make it difficult to identify important performance patterns.
 
 This project provides a centralized Power BI dashboard to:
 
@@ -40,10 +41,9 @@ This project provides a centralized Power BI dashboard to:
 - Understand geographic and audience patterns
 - Monitor important social media KPIs
 
+---
 
-## 🎯 Project Objectives
-
-The main objectives of this project are:
+# 🎯 Project Objectives
 
 1. Analyze overall social media performance.
 2. Measure audience engagement.
@@ -56,8 +56,9 @@ The main objectives of this project are:
 9. Create interactive Power BI dashboards.
 10. Convert raw data into meaningful business insights.
 
+---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
 - **Microsoft Power BI**
 - **Power Query**
@@ -69,12 +70,13 @@ The main objectives of this project are:
 - **Business Intelligence**
 - **Data Storytelling**
 
+---
 
 # 📊 Dashboard Sections
 
 ## 1. Executive Overview
 
-The Executive Overview provides a high-level summary of overall social media performance.
+Provides a high-level summary of overall social media performance.
 
 ### Key Metrics
 
@@ -86,9 +88,11 @@ The Executive Overview provides a high-level summary of overall social media per
 - Platform Distribution
 - Sponsored vs Organic Content
 
+---
+
 ## 2. Sponsorship Analysis
 
-The Sponsorship Analysis page focuses on sponsored social media content and sponsorship-related performance.
+Analyzes sponsored social media content and sponsorship-related performance.
 
 ### Analysis Includes
 
@@ -97,12 +101,12 @@ The Sponsorship Analysis page focuses on sponsored social media content and spon
 - Sponsor Performance
 - Sponsored Content Engagement
 - Sponsored vs Organic Performance
-- Sponsorship-related metrics
 
+---
 
 ## 3. Content Performance
 
-The Content Performance section analyzes how different types of content perform.
+Analyzes how different types of content perform.
 
 ### Analysis Includes
 
@@ -112,11 +116,12 @@ The Content Performance section analyzes how different types of content perform.
 - Content Categories
 - Views vs Likes
 - Monthly Content Trends
-- Content-level performance
+
+---
 
 ## 4. Platform Performance
 
-The Platform Performance section compares social media platforms.
+Compares performance across social media platforms.
 
 ### Analysis Includes
 
@@ -125,11 +130,12 @@ The Platform Performance section compares social media platforms.
 - Posting Time
 - Engagement Patterns
 - Platform Performance Comparison
-- Platform-level metrics
+
+---
 
 ## 5. Posting Time Analysis
 
-The Posting Time Analysis section explores the relationship between posting time and social media engagement.
+Analyzes posting-time patterns and audience engagement.
 
 ### Analysis Includes
 
@@ -138,11 +144,12 @@ The Posting Time Analysis section explores the relationship between posting time
 - Day-wise posting trends
 - Time-slot performance
 - Posting frequency
-- Engagement patterns
+
+---
 
 ## 6. Geographic & Audience Insights
 
-The Geographic & Audience Insights section focuses on audience distribution and regional performance.
+Analyzes geographic and audience characteristics.
 
 ### Analysis Includes
 
@@ -150,13 +157,15 @@ The Geographic & Audience Insights section focuses on audience distribution and 
 - Regional Performance
 - Audience Age Groups
 - Geographic Marketing Insights
-- Audience segmentation
+- Audience Segmentation
+
+---
 
 # 🧹 Data Transformation
 
-The dataset was cleaned and transformed using **Power Query**.
+Power Query was used to clean and transform the dataset.
 
-### Data Preparation Steps
+### Data Preparation
 
 - Imported the CSV dataset
 - Cleaned the raw data
@@ -165,15 +174,15 @@ The dataset was cleaned and transformed using **Power Query**.
 - Created calculated columns
 - Transformed date and time information
 - Standardized text fields
-- Prepared the dataset for Power BI analysis
+- Prepared the dataset for Power BI
+
+---
 
 # 🧮 DAX & Data Analysis
 
 DAX was used to create calculated measures and support interactive dashboard analysis.
 
 ### Calculated Fields
-
-The project includes calculated fields such as:
 
 - Day Name
 - Full Day Name
@@ -198,102 +207,159 @@ The project includes calculated fields such as:
 - Platform Views
 - Sponsorship-related metrics
 
+---
+
 # 📈 Key KPIs
 
 | KPI | Description |
+|---|---|
+| **Total Posts** | Total amount of content published |
+| **Total Views** | Total number of views |
+| **Total Likes** | Total audience likes |
+| **Total Comments** | Total audience comments |
+| **Total Shares** | Total content shares |
+| **Total Engagement** | Combined audience interactions |
+| **Engagement Rate** | Measures audience interaction relative to the relevant audience/reach metric |
+| **Average Views** | Average views per post |
+| **Average Likes** | Average likes per post |
 
-| Total Posts | Total amount of content published |
-| Total Views | Total number of views |
-| Total Likes | Total audience likes |
-| Total Comments | Total audience comments |
-| Total Shares | Total content shares |
-| Total Engagement | Combined audience interactions |
-| Engagement Rate | Measures audience interaction relative to the relevant audience/reach metric |
-| Average Views | Average views per post |
-| Average Likes | Average likes per post |
+---
 
 # 📸 Dashboard Preview
 
-The repository contains screenshots of the major Power BI dashboard pages.
+## 📊 Social Media Performance
 
-👉 **[View All Dashboard Screenshots](./Screenshots)**
+![Social Media Performance Dashboard](./Screenshots/Screenshots/Social%20Media%20Performance%20Dashboard.jpeg)
 
-### Dashboard Pages
+---
 
-- Executive Overview
-- Social Media Performance
-- Sponsorship Analysis
-- Content Performance
-- Platform Performance
-- Posting Time Analysis
-- Geographic & Audience Insights
-- Reach & Performance Analysis
+## 🤝 Sponsorship Analysis
+
+![Sponsorship Analysis Dashboard](./Screenshots/Screenshots/Sponsorship%20Analysis%20Dashboard.jpeg)
+
+---
+
+## 📝 Content Performance & Audience Insights
+
+![Content Performance & Audience Insights](./Screenshots/Screenshots/Content%20Performance%20%26%20Audience%20insights.jpeg)
+
+---
+
+## 🌍 Geographic Insights
+
+![Geographic Insights](./Screenshots/Screenshots/Geographic%20insights.jpeg)
+
+---
+
+## ⏰ Posting Time Analysis
+
+![Posting Time Analysis](./Screenshots/Screenshots/Posting%20Time%20Analysis.jpeg)
+
+---
+
+## 📈 Reach & Performance Analysis
+
+![Reach & Performance Analysis](./Screenshots/Screenshots/Reach%20%26%20Performance%20Analysis.jpeg)
+
+---
+
+# 📁 Repository Structure
+
+- 📁 **Screenshots**
+  - 📁 **Screenshots**
+    - Content Performance & Audience insights.jpeg
+    - Geographic insights.jpeg
+    - Posting Time Analysis.jpeg
+    - Reach & Performance Analysis.jpeg
+    - Social Media Performance Dashboard.jpeg
+    - Sponsorship Analysis Dashboard.jpeg
+- 📄 **README.md**
+- 📊 **Power BI Dashboard (.pbix)**
+- 📄 **Project-Documentation.docx**
+- 📊 **PowerBI-Presentation.pptx**
+- 📑 **social-media-dataset.csv**
+
+---
 
 # 🔄 Project Workflow
 
-The project follows a structured data analytics workflow:
+### 1️⃣ Raw Social Media Dataset
 
-**Raw Social Media Dataset**  
-⬇️  
-**Data Cleaning**  
-⬇️  
-**Power Query**  
-⬇️  
-**Data Transformation**  
-⬇️  
-**Data Modeling**  
-⬇️  
-**DAX Measures**  
-⬇️  
-**Power BI Visualizations**  
-⬇️  
-**Interactive Dashboard**  
-⬇️  
-**Business Insights**
+⬇️
 
+### 2️⃣ Data Cleaning
+
+⬇️
+
+### 3️⃣ Power Query
+
+⬇️
+
+### 4️⃣ Data Transformation
+
+⬇️
+
+### 5️⃣ Data Modeling
+
+⬇️
+
+### 6️⃣ DAX Measures
+
+⬇️
+
+### 7️⃣ Power BI Visualizations
+
+⬇️
+
+### 8️⃣ Interactive Dashboard
+
+⬇️
+
+### 9️⃣ Business Insights
+
+---
 
 # 💡 Business Insights
 
 The dashboard can be used to identify:
 
-- 📱 Social media platform performance patterns
-- 📝 Content performance patterns
-- 👥 Audience engagement patterns
-- 🤝 Sponsored vs organic content differences
-- 🌍 Geographic audience distribution
-- ⏰ Posting-time patterns
-- 📈 Reach and engagement trends
-- 💼 Sponsorship performance patterns
-- 🎯 Audience characteristics
+- 📱 **Social Media Platform Performance**
+- 📝 **Content Performance Patterns**
+- 👥 **Audience Engagement Patterns**
+- 🤝 **Sponsored vs Organic Content**
+- 🌍 **Geographic Audience Distribution**
+- ⏰ **Posting-Time Patterns**
+- 📈 **Reach and Engagement Trends**
+- 💼 **Sponsorship Performance**
+- 🎯 **Audience Characteristics**
 
-These insights can support data-driven social media and marketing analysis.
+---
 
 # 🚀 How to Use
 
-### Step 1 — Download the Dashboard
+### 1️⃣ Download the Dashboard
 
 Download the Power BI `.pbix` file from this repository.
 
-### Step 2 — Open in Power BI
+### 2️⃣ Open in Power BI
 
 Open the `.pbix` file using **Microsoft Power BI Desktop**.
 
-### Step 3 — Explore the Dashboard
+### 3️⃣ Explore the Dashboard
 
 Navigate through the different dashboard pages.
 
-### Step 4 — Apply Filters
+### 4️⃣ Apply Filters
 
 Use the available filters and slicers to interact with the dashboard.
 
-### Step 5 — Analyze Insights
+### 5️⃣ Analyze Insights
 
 Explore social media, sponsorship, content, platform, audience, and geographic performance.
 
+---
 
 # 🎓 Skills Demonstrated
-
-This project demonstrates practical skills in:
 
 - **Power BI**
 - **Power Query**
@@ -324,7 +390,7 @@ This project demonstrates practical skills in:
 
 ### 🔗 GitHub
 
-[github.com/vattemsrividhya0262-ctrl](https://github.com/vattemsrividhya0262-ctrl)
+[GitHub Profile](https://github.com/vattemsrividhya0262-ctrl)
 
 ### 🔗 LinkedIn
 
@@ -333,6 +399,8 @@ This project demonstrates practical skills in:
 ---
 
 ⭐ **If you find this project useful, feel free to explore the repository.**
+
+
 
 
 
